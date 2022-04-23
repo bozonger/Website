@@ -1,0 +1,42 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Test Site</title>
+    <link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+    <div class="logo">
+        <a href="index.html">
+            <img src="https://i.imgur.com/0KL0i6I.jpg" alt="turkish eagle" />
+        </a>
+    </div>
+    <div class="topnav">
+        <a href="index.html" class="active">Home</a>
+        <a href="news.html">News</a>
+        <a href="about.html">About &Scedil;ilvi&uuml; Fakiro&gbreve;l&uuml;</a>
+    </div>
+    <div class="topnav-body-break">
+        <br/>
+        <br/>
+        <br/>
+    </div>
+    <div id="twitch-embed"
+         style="
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);
+      "></div>
+    <script src="https://embed.twitch.tv/embed/v1.js"></script>
+    <script type="text/javascript">
+      new Twitch.Embed("twitch-embed", {
+        width: 854,
+        height: 480,
+        channel: "faiar"
+      });
+    </script>
+</body>
+</html>

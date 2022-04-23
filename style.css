@@ -1,0 +1,43 @@
+﻿body {
+  background-image: url(https://static-cdn.jtvnw.net/jtv_user_pictures/64fb567d-0a79-4a1a-855b-63a667f38da2-profile_image-70x70.png);
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #8a49d0;
+}
+
+.topnav a {
+  float: right;
+  color: #41265f;
+  text-align: center;
+  padding: 50px 20px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.logo img {
+  position: absolute;
+  top: 20px;
+  left: 150px;
+  width: 256px;
+  height: 100px;
+}
+
+.topnav a:hover {
+  background-color: #c500ff;
+  color: #67349e;
+}
+
+.topnav a.active {
+  background-color: #67349e;
+  color: #c500ff;
+}
+
+script {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%) }
+}
